@@ -2,7 +2,7 @@
 This repository is the implementation for "Spatio-temporal attention graph neural network for skeleton-based action recognition".
 
 ## Architecture of CTR-GC
-![image](architecture.png){:height="36px" width="36px"}
+![image](architecture.png)
 
 # Prerequisites
 - Python = 3.6.8
