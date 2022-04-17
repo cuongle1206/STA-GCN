@@ -30,7 +30,7 @@ Put downloaded data into the following directory structure:
 
 # Generating Data
 ```
- cd ./data/ntu or cd ./data/ntu120
+ cd ./data/ntu60 or cd ./data/ntu120
  # Get skeleton of each performer
  python get_raw_skes_data.py
  # Remove the bad skeleton 
