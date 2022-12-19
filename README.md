@@ -42,8 +42,8 @@ Put downloaded data into the following directory structure:
 # Training & Testing
 - Change the config file depending on what you want.
 ```
-# Example: training STA-GCN on NTU RGB+D 60 cross subject with GPU 0 and 1
-python main.py --config config/nturgbd-cross-subject/default.yaml --work-dir work_dir/ntu60/csub/stagcn-joint --device 0 1
+# Example: training STA-GCN on NTU RGB+D 60 cross subject with GPU 0
+python main.py --config config/nturgbd-cross-subject/default.yaml --work-dir work_dir/ntu60/csub/stagcn-joint --device 0
 ```
 
 - To train model on NTU RGB+D 60/120 with bone or motion modalities, setting `bone` or `vel` arguments in the config file `default.yaml` or in the command line.
@@ -60,7 +60,7 @@ python main.py --config <work_dir>/config.yaml --work-dir <work_dir> --phase tes
 - To ensemble the results of different modalities, run 
 ```
 # Example: ensemble four modalities of CTRGCN on NTU RGB+D 60 cross subject
-python ensemble.py --datasets ntu60/xsub --joint-dir work_dir/ntu60/csub/stagcn-joint --bone-dir work_dir/ntu60/csub/stagcn-bone --joint-motion-dir work_dir/ntu120/csub/ctrgcn-motion --bone-motion-dir work_dir/ntu120/csub/ctrgcn-bone-motion
+python ensemble.py --datasets ntu60/xsub --joint-dir work_dir/ntu60/xsub/stagcn-joint --bone-dir work_dir/ntu60/xsub/stagcn-bone --joint-motion-dir work_dir/ntu120/xsub/stagcn-motion --bone-motion-dir work_dir/ntu120/xsub/stagcn-bone-motion
 ```
 
 # Acknowledgements
