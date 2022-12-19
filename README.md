@@ -49,18 +49,18 @@ python main.py --config config/nturgbd-cross-subject/default.yaml --work-dir wor
 - To train model on NTU RGB+D 60/120 with bone or motion modalities, setting `bone` or `vel` arguments in the config file `default.yaml` or in the command line.
 ```
 # Example: training CTRGCN on NTU RGB+D 60 cross subject under bone modality
-python main.py --config config/nturgbd60-cross-subject/default.yaml --train_feeder_args bone=True --test_feeder_args bone=True --work-dir work_dir/ntu60/csub/stagcn-bone --device 0 1
+python main.py --config config/nturgbd60-cross-subject/default.yaml --train_feeder_args bone=True vel=False --test_feeder_args bone=True vel=False --work-dir work_dir/ntu60/csub/stagcn-bone --device 0
 ```
 
 - To test the trained models saved in <work_dir>, run the following command:
 ```
-python main.py --config <work_dir>/config.yaml --work-dir <work_dir> --phase test --save-score True --weights <work_dir>/xxx.pt --device 0
+python main.py --config config/nturgbd60-cross-subject/config.yaml --work-dir <work_dir> --phase test --save-score True --weights <work_dir>/xxx.pt --device 0
 ```
 
 - To ensemble the results of different modalities, run 
 ```
 # Example: ensemble four modalities of CTRGCN on NTU RGB+D 60 cross subject
-python ensemble.py --datasets ntu60/xsub --joint-dir work_dir/ntu60/xsub/stagcn-joint --bone-dir work_dir/ntu60/xsub/stagcn-bone --joint-motion-dir work_dir/ntu120/xsub/stagcn-motion --bone-motion-dir work_dir/ntu120/xsub/stagcn-bone-motion
+python ensemble.py --datasets ntu60/xsub --joint-dir work_dir/ntu60/xsub/stagcn-joint --bone-dir work_dir/ntu60/xsub/stagcn-bone --joint-motion-dir work_dir/ntu120/xsub/stagcn-joint-motion --bone-motion-dir work_dir/ntu120/xsub/stagcn-bone-motion
 ```
 
 # Acknowledgements
