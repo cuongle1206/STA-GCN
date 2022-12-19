@@ -1,11 +1,11 @@
 # STA-GCN
-This repository is the implementation for "Spatio-temporal attention graph neural network for skeleton-based action recognition".
+This repository is the implementation for "Spatio-temporal Attention Graph Neural Network for Skeleton-based Action Recognition".
 
 ## Architecture of CTR-GC
 ![image](architecture.png)
 
 # Prerequisites
-- Python == 3.6.8
+- Python3
 - PyTorch >= 1.1.0
 - `pip install -r requirements.txt `
 - `pip install -e torchlight`
