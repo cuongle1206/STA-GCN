@@ -6,7 +6,6 @@ This repository is the implementation for "Spatio-temporal Attention Graph Convo
 
 # Prerequisites
 - Python 3.6.8
-- PyTorch >= 1.1.0
 - `pip install -r requirements.txt `
 - `pip install -e torchlight`
 
