@@ -70,10 +70,10 @@ Many thanks to the original authors for their work!
 
 # Citation
 ```
-@article{stagcn-scia2023,
+@inproceedings{stagcn-scia2023,
     author = {Le, Cuong and Liu, Xin},
     title = {Spatio-temporal Attention Graph Convolutions for Skeleton-based Action Recognition},
-    conference = {Scandinavia Conference on Image Analysis (SCIA)},
+    booktitle = {Scandinavia Conference on Image Analysis (SCIA)},
     year = {2023}
     }
 ```
