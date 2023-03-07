@@ -74,7 +74,8 @@ Many thanks to the original authors for their work!
     author = {Le, Cuong and Liu, Xin},
     title = {Spatio-temporal Attention Graph Convolutions for Skeleton-based Action Recognition},
     conference = {Scandinavia Conference on Image Analysis (SCIA)},
-    year = {2023}}
+    year = {2023}
+    }
 ```
 
 
