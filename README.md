@@ -1,7 +1,9 @@
-# STA-GCN
-This repository is the implementation for "Spatio-temporal Attention Graph Convolutions for Skeleton-based Action Recognition".
+# Official implementation of STA-GCN
 
-## Architecture of CTR-GC
+Spatio-temporal Attention Graph Convolutions for Skeleton-based Action Recognition
+
+[![Paper](https://img.shields.io/badge/DiVA-221028-cyan)](https://urn.kb.se/resolve?urn=urn%3Anbn%3Ase%3Aliu%3Adiva-221028)
+
 ![image](architecture.png)
 
 # Prerequisites
