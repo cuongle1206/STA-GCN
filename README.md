@@ -2,7 +2,7 @@
 
 Spatio-temporal Attention Graph Convolutions for Skeleton-based Action Recognition
 
-[![Paper](https://img.shields.io/badge/DiVA-221028-cyan)](https://urn.kb.se/resolve?urn=urn%3Anbn%3Ase%3Aliu%3Adiva-221028)
+[![Paper](https://img.shields.io/badge/DiVA-221028-cyan)](https://urn.kb.se/resolve?urn=urn%3Anbn%3Ase%3Aliu%3Adiva-221028) [![Poster](https://img.shields.io/badge/Poster-SCIA-purple)](https://link.springer.com/chapter/10.1007/978-3-031-31435-3_10)
 
 ![image](architecture.png)
 
